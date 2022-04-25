@@ -1,0 +1,114 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #000;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  width: 690px;
+  background-color: #232323;
+  border-radius: 7px;
+  padding: 30px;
+}
+
+.wrapper {
+  border-radius: 5px;
+  border: 1px solid #bbb;
+}
+
+.text-input {
+  display: flex;
+  border-bottom: 1px solid #bbb;
+}
+
+.text-input textarea {
+  height: 250px;
+  width: 100%;
+  border: none;
+  outline: none;
+  resize: none;
+  font-size: 18px;
+  background: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.text-input .to-text {
+  border-radius: 5px;
+  border-left: 1px solid #bbb;
+}
+
+.controls {
+  padding: 12px 15px;
+  list-style: none;
+}
+.controls, li, .icons, .icons i{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.controls .icons {
+  width: 38%;
+}
+
+.controls .icons i{
+  width: 50px;
+  color: #9bdc28;
+  font-size: 14px;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.controls .row select {
+  border: none;
+  outline: none;
+  font-size: 18px;
+  background: none;
+}
+.controls .row.from .icons{
+  border-right: 1px solid #bbb;
+  padding-right: 15px;
+}
+.controls .row.to .icons{
+  border-left: 1px solid #bbb;
+  padding-left: 15px;
+}
+
+.controls .exchange {
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.controls .exchange i {
+  color: #9bdc28;
+}
+
+.container button {
+  width: 100%;
+  padding: 14px;
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 17px;
+  color: #fff;
+  background-color: #5372F0;
+}
+
